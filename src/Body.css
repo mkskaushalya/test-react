@@ -1,0 +1,21 @@
+.AppBody{
+    height: calc(100vh - 80px);
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+}
+
+.AppBody section{
+    width: 100%;
+    padding: var(--main-padding);
+}
+
+.AppBody section.hero{
+    min-height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    color: #fff;
+    flex-direction: column;
+}
